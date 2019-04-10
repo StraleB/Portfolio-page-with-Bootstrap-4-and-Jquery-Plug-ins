@@ -254,23 +254,24 @@ body {
     padding:5px;
   }
   
-  .items li img{
-    width:90%;
+  .items li img {
+    width: 100%;
     -webkit-transition: all 0.2s linear, 1s;
-    -moz-transition: all 0.2s linear, 1s;
-    -o-transition: all 0.2s linear, 1s;
-    -ms-transition: all 0.2s linear, 1s;
-     transition: all 0.2s linear, 1s;
+      -moz-transition: all 0.2s linear, 1s;
+      -o-transition: all 0.2s linear, 1s;
+      -ms-transition: all 0.2s linear, 1s;
+      -transition: all 0.2s linear, 1s;
+      height: 190px;
   }
   
   .items .item {
-      position: relative;
-      display: block;
+    position: relative;
+    display: block;
     overflow: hidden;
   }
   
   .items .icons {
-      position: absolute;
+    position: absolute;
       width: 90px;
       height: 40px;
       left: 50%;
@@ -279,7 +280,6 @@ body {
       text-align: center;
       z-index: 3;
   }
-  
   .items .icons i {
       color: #fff;
       font-size: 20px;
